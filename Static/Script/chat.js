@@ -39,7 +39,6 @@ function firstBotMessage() {
     document.getElementById("botStarterMessage").innerHTML = '<p class="botText"><span>' + firstMessage + '</span></p>';
 
     let time = getTime();
-
     $("#chat-timestamp").append(time);
     document.getElementById("userInput").scrollIntoView(false);
 }
