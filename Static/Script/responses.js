@@ -1,11 +1,11 @@
 function getBotResponse(input) {
-    //rock paper scissors
-    if (input == "rock") {
-        return "paper";
-    } else if (input == "paper") {
-        return "scissors";
-    } else if (input == "scissors") {
-        return "rock";
+    //normal questions
+    if (input == "help me") {
+        return "Sure, Please share your query";
+    } else if (input == "What is coding") {
+        return "Coding is something which is used in making websites, Applications, Softwares and many more things";
+    } else if (input == "can you tell me the weather outside") {
+        return "It's raining right now.";
     }
 
     // Simple responses
